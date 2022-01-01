@@ -1,7 +1,9 @@
-import java.util.Scanner;
-import java.util.*;
+package Project2;
 
-public class Guess_The_Number {
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class GuessThename {
 
     public static void main(String[] args) {
 
@@ -50,22 +52,22 @@ public class Guess_The_Number {
 
                 System.out.println("Would you like to play again? (yes/no) ");
                 input.hasNextBoolean();
-            //(input.hasNextBoolean() !=no){
+                //(input.hasNextBoolean() !=no){
 
             }
-        while (input.hasNextBoolean() == yes);
+            while (input.hasNextBoolean() == yes);
             System.out.println("Let's start all over! "); //+ input.nextInt());
             {
                 input.reset();
             }
             if (input.hasNextBoolean() == no) {
                 System.out.println("End of Guess a number game! ");
-           //}
-    }
-                //reset the game
+                //}
+            }
+            //reset the game
         } catch (InputMismatchException ex){
-        System.out.println(ex);
-        //  throw new InputMismatchException("Caught Exception");
-}
-}
+            System.out.println(ex);
+            //  throw new InputMismatchException("Caught Exception");
+        }
+    }
 }
