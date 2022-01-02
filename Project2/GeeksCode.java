@@ -1,5 +1,7 @@
 package Project2;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class GeeksCode {
@@ -12,24 +14,14 @@ public class GeeksCode {
 
         // create a new scanner
         // with the specified String Object
-        Scanner scanner = new Scanner(s);
-
-        while (scanner.hasNext()) {
-
-            // if the next is a Boolean,
-            // print found and the Boolean
-            if (scanner.hasNextBoolean()) {
-                System.out.println("Found Boolean value :"
-                        + scanner.nextBoolean());
-            }
-
-            // if no Boolean is foucnd,
-            // print "Not Found:" and the token
-            else {
-                System.out.println("Not found Boolean() value :"
-                        + scanner.next());
-            }
-        }
-        scanner.close();
+        InputStreamReader ir = new InputStreamReader(System. in );
+        BufferedReader br = new BufferedReader(ir);
+        System.out.println("Enter your name:");
+        String name = br.readLine();
+        System.out.println("You entered: " + name);
+        String sentence;
+        System.out.println("Enter a sentence:");
+        sentence = br.readLine();
+        System.out.println("You entered: " + sentence);
     }
 }

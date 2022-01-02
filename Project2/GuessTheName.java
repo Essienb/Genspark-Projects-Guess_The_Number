@@ -1,6 +1,7 @@
 package Project2;
 
 import java.util.InputMismatchException;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class GuessTheName {
@@ -13,7 +14,6 @@ public class GuessTheName {
         Scanner input = new Scanner(System.in);
         try {
             boolean yes = true;
-            boolean no = false;
             do {
                 String name = input.next();
                 // Generate the numbers
@@ -52,23 +52,29 @@ public class GuessTheName {
                     System.out.println("Would you like to play again? (true/false) " + '\n');
                     input.hasNextBoolean();
                     //input.nextLine();
-                } if (input.nextBoolean() ==true) {
+                }
+                if (input.nextBoolean() == yes) {
                     System.out.println("Let's start all over! ");
-                    System.out.println("Take a new guess" + '\n');
-                    guess=input.nextInt(); //+ input.nextInt());
+                    System.out.println("Enter your name and take a new guess" + '\n');
+                    //guess=input.nextInt(); //+ input.nextInt());
                     input.reset();
                 } else {
                     System.out.println("End of Guess a number game! ");
+                    input.close();
                 }
             }
-                while (input.equals(true)) ;{//; {
-
-                   input.close();
+            while (!input.equals(true));
+            {
+                input.close();
             }
-        } catch (InputMismatchException ex){
+        } catch (InputMismatchException ex) {
             System.out.println(ex);
-            //  throw new InputMismatchException("Caught Exception");
-            // throws IllegalStateException; throws NoSuchElementException
+
+        } catch (IllegalStateException e) {
+            System.out.println(e);
+
+    } catch (NoSuchElementException n){
+            System.out.println(n);
         }
     }
 }

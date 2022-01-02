@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ba554366-c591-4666-9288-c2bdd213945f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2/GeeksCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/GeeksCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project2/GuessTheName.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/GuessTheName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Genspark-Projects-Guess_The_Number/Project2/GeeksCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Genspark-Projects-Guess_The_Number/Project2/GeeksCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Genspark-Projects-Guess_The_Number/Project2/GuessTheName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Genspark-Projects-Guess_The_Number/Project2/GuessTheName.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.GeeksCode">
+  <component name="RunManager" selected="Application.GuessTheName">
     <configuration name="GeeksCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Project2.GeeksCode" />
       <module name="Genspark-Projects-Guess_The_Number" />
@@ -66,8 +69,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GeeksCode" />
         <item itemvalue="Application.GuessTheName" />
+        <item itemvalue="Application.GeeksCode" />
       </list>
     </recent_temporary>
   </component>
