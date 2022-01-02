@@ -3,7 +3,7 @@ package Project2;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class GuessThename {
+public class GuessTheName {
 
     public static void main(String[] args) {
 
