@@ -37,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.GuessTheName">
+  <component name="RunManager" selected="Application.GeeksCode">
     <configuration name="GeeksCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Project2.GeeksCode" />
       <module name="Genspark-Projects-Guess_The_Number" />
@@ -66,8 +66,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuessTheName" />
         <item itemvalue="Application.GeeksCode" />
+        <item itemvalue="Application.GuessTheName" />
       </list>
     </recent_temporary>
   </component>

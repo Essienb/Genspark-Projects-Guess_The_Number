@@ -11,8 +11,8 @@ public class GuessTheName {
         System.out.println("Hello! What is your name? ");
 
         Scanner input = new Scanner(System.in);
-        try{
-            boolean yes = false;
+        try {
+            boolean yes = true;
             boolean no = false;
             do {
                 String name = input.next();
@@ -47,27 +47,28 @@ public class GuessTheName {
                     }
                 }
                 if (i == K) {
-                    System.out.println("You have exhausted " + K + " trials");
+                    System.out.println("You have exhausted " + K + " trials" + '\n');
+                    // }
+                    System.out.println("Would you like to play again? (true/false) " + '\n');
+                    input.hasNextBoolean();
+                    //input.nextLine();
+                } if (input.nextBoolean() ==true) {
+                    System.out.println("Let's start all over! ");
+                    System.out.println("Take a new guess" + '\n');
+                    guess=input.nextInt(); //+ input.nextInt());
+                    input.reset();
+                } else {
+                    System.out.println("End of Guess a number game! ");
                 }
+            }
+                while (input.equals(true)) ;{//; {
 
-                System.out.println("Would you like to play again? (yes/no) ");
-                input.hasNextBoolean();
-                //(input.hasNextBoolean() !=no){
-
+                   input.close();
             }
-            while (input.hasNextBoolean() == yes);
-            System.out.println("Let's start all over! "); //+ input.nextInt());
-            {
-                input.reset();
-            }
-            if (input.hasNextBoolean() == no) {
-                System.out.println("End of Guess a number game! ");
-                //}
-            }
-            //reset the game
         } catch (InputMismatchException ex){
             System.out.println(ex);
             //  throw new InputMismatchException("Caught Exception");
+            // throws IllegalStateException; throws NoSuchElementException
         }
     }
 }
