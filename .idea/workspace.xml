@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba554366-c591-4666-9288-c2bdd213945f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Project2/GuessTheNameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2/GeeksCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/GeeksCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project2/GuessTheName.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project2/GuessTheName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Genspark-Projects-Guess_The_Number/Project2/GeeksCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Genspark-Projects-Guess_The_Number/Project2/GeeksCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Genspark-Projects-Guess_The_Number.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Genspark-Projects-Guess_The_Number.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Genspark-Projects-Guess_The_Number/Project2/GuessTheName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Genspark-Projects-Guess_The_Number/Project2/GuessTheName.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -36,11 +36,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
   </component>
-  <component name="RunManager" selected="Application.GuessTheName">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Project2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GuessTheNameTest">
     <configuration name="GeeksCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Project2.GeeksCode" />
       <module name="Genspark-Projects-Guess_The_Number" />
@@ -67,8 +83,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GuessTheNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Genspark-Projects-Guess_The_Number" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Project2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Project2" />
+      <option name="MAIN_CLASS_NAME" value="Project2.GuessTheNameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GuessTheNameTest" />
         <item itemvalue="Application.GuessTheName" />
         <item itemvalue="Application.GeeksCode" />
       </list>
