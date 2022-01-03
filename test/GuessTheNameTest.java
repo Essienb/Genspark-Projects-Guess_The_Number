@@ -1,8 +1,6 @@
-package Project2;
+package test;
 
 import org.junit.jupiter.api.DisplayName;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 
 @DisplayName("Guess_The_Name-TestCase")

@@ -1,4 +1,4 @@
-package Project2;
+package Project_2;
 
 import java.util.InputMismatchException;
 import java.util.NoSuchElementException;

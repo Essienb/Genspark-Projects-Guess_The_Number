@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba554366-c591-4666-9288-c2bdd213945f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Project2/GuessTheNameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Genspark-Projects-Guess_The_Number.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Genspark-Projects-Guess_The_Number.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Genspark-Projects-Guess_The_Number/Project2/GuessTheName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Genspark-Projects-Guess_The_Number/Project2/GuessTheName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2/GeeksCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project_2/GeeksCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2/GuessTheName.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project_2/GuessTheName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project2/GuessTheNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project_2/GuessTheNameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Genspark-Projects-Guess_The_Number/Project2/GuessTheNameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Genspark-Projects-Guess_The_Number/Project2/GuessTheNameTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,13 +57,13 @@
       <recent name="Project2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GuessTheNameTest">
+  <component name="RunManager" selected="Application.GeeksCode">
     <configuration name="GeeksCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project2.GeeksCode" />
+      <option name="MAIN_CLASS_NAME" value="Project_2.Project2.GeeksCode" />
       <module name="Genspark-Projects-Guess_The_Number" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Project2.*" />
+          <option name="PATTERN" value="Project_2.Project2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,11 +72,11 @@
       </method>
     </configuration>
     <configuration name="GuessTheName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Project2.GuessTheName" />
+      <option name="MAIN_CLASS_NAME" value="Project_2.Project2.GuessTheName" />
       <module name="Genspark-Projects-Guess_The_Number" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Project2.*" />
+          <option name="PATTERN" value="Project_2.Project2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +88,12 @@
       <module name="Genspark-Projects-Guess_The_Number" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Project2.*" />
+          <option name="PATTERN" value="Project_2.Project2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Project2" />
-      <option name="MAIN_CLASS_NAME" value="Project2.GuessTheNameTest" />
+      <option name="MAIN_CLASS_NAME" value="Project_2.Project2.GuessTheNameTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,9 +101,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GeeksCode" />
         <item itemvalue="JUnit.GuessTheNameTest" />
         <item itemvalue="Application.GuessTheName" />
-        <item itemvalue="Application.GeeksCode" />
       </list>
     </recent_temporary>
   </component>
